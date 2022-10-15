@@ -3,6 +3,10 @@
   color: blanchedalmond;
 }
 
+.navbg {
+  background-color: burlywood;
+}
+
 .homepg {
   min-height: 80vh;
 }
