@@ -3,7 +3,7 @@ import heroesData from "./herosData";
 import Hero from "./Hero";
 
 function HeroBlock() {
-    const HeroComponents = heroesData.map(hero => <Hero key={hero.name} Имя={hero.name} Вселенная={hero.universe} Альтер эго={hero.alterEgo} Род деятельности={hero.line} Друзья={hero.friends} Суперспособности={hero.superpowers} Подробнее={hero.more} />)
+    const HeroComponents = heroesData.map(hero => <Hero key={hero.name} name={hero.name} image={hero.image} universe={hero.universe} alterEgo={hero.alterEgo} line={hero.line} friends={hero.friends} superpowers={hero.superpowers} more={hero.more} />)
     
     return (
         <React.Fragment>

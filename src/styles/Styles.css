@@ -6,3 +6,11 @@
 .homepg {
   min-height: 80vh;
 }
+
+.imgWrap {
+  height: 400px;
+}
+.img {
+  max-width: 100%;
+  max-height: 100%;
+}
